@@ -1,4 +1,4 @@
-# Design Question: Design A Google Analytic like Backend System
+# Design A Google Analytic like Backend System
 
 ## Architecture
 
@@ -17,11 +17,6 @@
 
 - Application Server consume event data from Kafka
 - analyze and save result to Database
-
-### streaming/message layer
-
-- serve the event data
-- serve the historical data
 
 ### Database
 
