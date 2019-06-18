@@ -11,16 +11,16 @@
 ### Apache Kafka
 
 - Client send messages to Apache Kafka.
-- Kafka send to Application
+- Kafka send message to Application.
 
 ### Application Server
 
-- Application Server consume event data from Kafka
-- analyze and save result to Database
+- Application Server consume event data from Kafka.
+- this AP server analyze and save result to Database.
 
 ### Database
 
 - For latest metrics
-  - Amazon Aurora
+  - Amazon Aurora save latest data: this DB handle large read/query volume.
 - For historical data
-  - Cassandra or MongoDB
+  - Cassandra or MongoDB have histrical records: this DB is read less frequently than latest metrics, so quick response is important.
