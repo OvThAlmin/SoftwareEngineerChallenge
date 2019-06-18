@@ -16,7 +16,7 @@
 ### Application Server
 
 - Application Server consume event data from Kafka.
-- this AP server analyze and save result to Database.
+- This AP server analyze and save result to Database.
 
 ### Database
 
